@@ -2,11 +2,14 @@
 <BaliProject version="3.2" title="i2c_passthru" device="LCMXO2-7000HE-4TG144C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
-        <Options/>
+        <Options def_top="top"/>
         <Source name="top.v" type="Verilog" type_short="Verilog">
-            <Options/>
+            <Options top_module="top"/>
         </Source>
-        <Source name="i2c_transmitter.v" type="Verilog" type_short="Verilog">
+        <Source name="i2crepeater.sv" type="Verilog" type_short="Verilog">
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="tb_i2crepeater.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
             <Options/>
         </Source>
         <Source name="i2c_passthru.lpf" type="Logic Preference" type_short="LPF">
