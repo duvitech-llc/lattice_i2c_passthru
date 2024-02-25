@@ -1,0 +1,89 @@
+$date
+	Sun Feb 25 11:16:53 2024
+$end
+$version
+	ModelSim Version 2023.3
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_mux2_1 $end
+$var parameter 32 ! PERIOD $end
+$var parameter 32 " SIM_TIME $end
+$var reg 1 # i0 $end
+$var reg 1 $ i1 $end
+$var reg 1 % sel $end
+$var wire 1 & out $end
+$var reg 1 ' clk $end
+
+$scope module uut $end
+$var wire 1 ( i0 $end
+$var wire 1 ) i1 $end
+$var wire 1 * sel $end
+$var reg 1 + out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0$
+0%
+0+
+0'
+b1010 !
+b1100100 "
+0&
+0*
+0)
+0(
+$end
+#5000
+1'
+#10000
+0'
+#15000
+1'
+#20000
+1#
+0'
+1(
+1+
+1&
+#25000
+1'
+#30000
+0'
+#35000
+1'
+#40000
+1%
+0'
+1*
+0+
+0&
+#45000
+1'
+#50000
+0'
+#55000
+1'
+#60000
+0#
+1$
+0'
+0(
+1)
+1+
+1&
+#65000
+1'
+#70000
+0'
+#75000
+1'
+#80000
+0'
+#85000
+1'

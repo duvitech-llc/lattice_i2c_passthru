@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2023.3 2023.07, Jul 18 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/test_mux2_1
+vmux2_1
+2C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/mux2_1.v
+Z1 !s110 1708877490
+!i10b 1
+!s100 8fYIY4zQ[^lm=3WVF>XZX2
+I58dH0g2ZGCaEU?>M61enz1
+R0
+w1708877175
+8C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/mux2_1.v
+FC:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/mux2_1.v
+!i122 2
+L0 1 15
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OT;L;2023.3;77
+r1
+!s85 0
+31
+Z4 !s108 1708877490.000000
+!s107 C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/mux2_1.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -O0
+Z6 tCvgOpt 0
+vtb_mux2_1
+2C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/tb_mux2_1.v
+R1
+!i10b 1
+!s100 NSMW0^@?zcFn^82kkdD4h2
+IlL6>E>2kDFEFfo:28EZEI1
+R0
+w1708877298
+8C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/tb_mux2_1.v
+FC:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/tb_mux2_1.v
+!i122 3
+L0 3 55
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/tb_mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/tb_mux2_1.v|
+!s101 -O0
+!i113 1
+R5
+R6

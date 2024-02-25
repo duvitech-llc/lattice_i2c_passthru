@@ -1,0 +1,17 @@
+if {![file exists "C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/test_mux2_1/test_mux2_1.mpf"]} { 
+	project new "C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/test_mux2_1" test_mux2_1
+	project addfile "C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/mux2_1.v"
+	project addfile "C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/tb_mux2_1.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru  -work work  "C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/mux2_1.v"
+	vlog  +incdir+C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru  -work work  "C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/tb_mux2_1.v"
+} else {
+	project open "C:/CURRENT_WORK/Duvitech/lattice_i2c_passthru/test_mux2_1/test_mux2_1"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo2  tb_mux2_1
+view wave
+add wave /*
+run 1000ns
