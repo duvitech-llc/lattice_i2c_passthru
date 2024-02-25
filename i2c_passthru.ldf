@@ -3,6 +3,12 @@
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
         <Options/>
+        <Source name="top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="i2c_transmitter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
         <Source name="i2c_passthru.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
